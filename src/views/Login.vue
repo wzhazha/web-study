@@ -25,7 +25,7 @@ export default {
   },
   methods: {
     login() {
-      fetch('/admin/login', {
+      fetch('http://localhost:8081/copy/mall/admin/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
